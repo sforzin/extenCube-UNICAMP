@@ -8,7 +8,7 @@ const uint8_t MUX_CHANNEL[NUM_SENSORS] = {2,3, 4,5, 6,7, 10,11, 8,9, 0,1};
 // LED por CANAL FÍSICO (0..11). Pinos 22..33 do Mega (livres, contíguos).
 // A soldar: módulo no canal físico i -> LED no pino LED_GPIO[i].
 const uint8_t LED_GPIO[NUM_SENSORS] = {
-    11, 10, 24, 25, 26, 27, 28, 29, 30, 31, 13, 12
+    13, 12, 11, 10, 26, 27, 28, 29, 30, 31, 32, 33
 };
 
 void ledOn(uint8_t ns) {
